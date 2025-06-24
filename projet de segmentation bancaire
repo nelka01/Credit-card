@@ -1,0 +1,28 @@
+Votre Objectif
+Dans ce point de contrôle, nous allons travailler sur l’ensemble de données « Credit Card Dataset for Clustering » fourni par Kaggle.
+
+Description du jeu de données : Ce jeu de données a été dérivé et simplifié à des fins d’apprentissage. Il comprend le comportement d’utilisation d’environ 9000 titulaires de cartes de crédit actifs pendant une période de 6 mois. Ce cas nécessite de développer une segmentation de la clientèle pour définir une stratégie marketing.
+
+➡️ Lien vers l’ensemble de données
+
+https://i.imgur.com/gAT5gVg.jpg
+
+Explication des colonnes :
+
+CUST_ID : Identification du titulaire de la carte de crédit (catégorie)
+BALANCE_FREQUENCY : fréquence de mise à jour du solde, score compris entre 0 et 1 (1 = fréquemment mis à jour, 0 = pas fréquemment mis à jour)
+ACHATS : Montant des achats effectués sur le compte
+CASH_ADVANCE : Paiement à l’avance donné par l’utilisateur
+CREDIT_LIMIT : Limite de la carte de crédit pour l’utilisateur
+PAIEMENTS : Montant du paiement effectué par l’utilisateur
+
+Instructions
+Importez vos données et effectuez la phase d’exploration des données de base
+Effectuer les étapes nécessaires à la préparation des données ( Gestion des valeurs corrompues et manquantes, encodage des données, gestion des valeurs aberrantes... )
+Effectuez un clustering hiérarchique pour identifier les regroupements inhérents à vos données. Ensuite, tracez les clusters. (n’utilisez que 2 fonctionnalités. Par exemple, essayez de regrouper la base de clients en fonction de 'ACHATS' et 'Limite de crédit')
+Effectuez un clustering partitionnel à l’aide de l’algorithme K-means. Ensuite, tracez les clusters
+Trouvez la meilleure valeur k et tracez à nouveau les clusters.
+Interpréter les résultats
+
+Soumission du Lien
+
